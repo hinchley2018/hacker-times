@@ -8,5 +8,8 @@
 - article 2 layouts and widths (thomas)
 - article 3 layouts and widths (Ben)
 - all fonts (frank)
-- bonus (carlos)
+- bonus 
+-- 3 extra articles (carlos)
+-- Add a footer (kevin)
+-- closer to NY times (Ben) ()
 

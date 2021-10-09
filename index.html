@@ -18,29 +18,88 @@
     */
     ul {
       list-style-type: none;
-      
+      text-align: center;
+      border-bottom: 1px solid #777;
+      border-top: 1px solid #777
     }
     
     li {
       display: inline;
+    }
+    
+    li a {
+      text-decoration: none;
+      color: #777;
+      font-family: Roboto Slab;
+      font-size: 0.8em
+      
+    }
+
+    header{
+      font-family:Abril Fatface;
+    }
+
+    .newspaper-container{
+      width:700px;
+      border-radius: 30px;
+      box-shadow: 3px 3px 3px grey;
+      padding: 30px;
+      margin: auto;
+
+    }
+
+
+    h1{
+      text-align:center;
+      font-faimly:Roboto Slab;
+    }
+        
+    main h2 {
+      font-family: Roboto Slab;
+    }
+    main img {
+      width:100%;
+    }
+    main p {
+      font-family: Source Sans Pro;
+      color: #777;
+    }
+    main h5 {
+      color: #dd3232;
+    }
+
+
+    #hfour-article-two {
+      text-align: left;
+      font-faimly: Roboto Slab;
       
     }
     
-header{
-  font-family:Abril Fatface;
-}
-h1{
-  text-align:center;
-<font></font>
-}
+    .tabs-spacesarticle {
+      display: inline-block;
+      width: 250px;
+    }
     
-h2 {
-  font-family: Roboto Slab;
-}
+    .tabs-spacesarticle p {
+      color: #777;
+      font-family: Source San Pro;
+    }
+    
+    .caffeine-article h4 {
+     font-family: Roboto Slab;
+     
+    }    
+    .caffeine-article p {
+      color: #777;
+      font-family: Source San Pro;
+    }
 
-h5 {
-  color: #dd3232;
-}
+    .caffeine-article {
+      display: inline-block;
+    }
+
+
+
     
   </style>
 </head>
@@ -77,9 +136,9 @@ h5 {
         </p>
     </main>
     <!-- more articles -->
-    <div class="more-articles">
+    <div class="tabs-spacesarticle">
       <section>
-        <h4 id="hfourarticle">Tabs vs. Spaces</h4>
+        <h4 id="hfour-article-two">Tabs vs. Spaces</h4>
         <img src="assets/article-one.png" alt="placeholder">
         <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</p>
       </section>
@@ -91,11 +150,41 @@ h5 {
           <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</p>
       </section>
     </div>
-    <div class = "extra aritles">
+    <!-- Bonus 
+    The editor-in-chief wants space for more articles. Try to add another section at the bottom with three articles in a row.
+    You can achieve this look the same way you did with the two articles, but if you are hungry for more, consider using the CSS grid instead.
+    
+    Add a footer at the bottom with links to learn about the company, careers, etc. Visit other newspaper sites to see what they have in their footers.
+    This newspaper design was heavily inspired by The New York Times. Visit its site and try to incorporate more of its design elements into The Hacker Times.
+    -->
+    <div class = "extra-articles">
       <section>
-        <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...<p>
-        
+        <h4>Bonus</h4>
+        <img src="assets/article-one.png" 
+        alt="placeholder">
+        <article id= "extra-one">Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</article>
+        <article id= "extra-two">Cupcake ipsum dolor sit amet. Candy gummies jelly-o pie toffee cheesecake pastry cake. Soufflé sesame snaps tootsie roll jelly-o soufflé tart gummies. Dessert lollipop halvah brownie chocolate bar gingerbread. Lollipop chocolate bar dragée jelly-o cookie tiramisu icing. Dragée muffin marshmallow jelly beans jelly beans. Tootsie roll pie cheesecake. Brownie biscuit gingerbread cupcake sweet roll sweet jelly-o cookie pie. Lemon drops topping lemon drops jelly beans toffee. Tiramisu cotton candy pie toffee cake chocolate cake apple pie. Cupcake bear claw donut apple pie halvah sesame snaps macaroon tootsie roll</article>
+        <article id= "extra-three">Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</article>
+      </section>
     </div>
   </div>
+  <footer>
+    © 2021 The New York Times
+    <nav>
+    <li>Company</li>
+    <li>Contact Us</li>
+    <li>Accessibility</li>
+    <li>Work with us</li>
+    <li>Advertise</li>
+    <li>Your Ad Choices</li>
+    <li>Privacy Policy</li>
+    <li>Terms of Service</li>
+    <li>Terms of Sale</li>
+    <li>Site Map</li>
+    <li>Help</li>
+    <li>Subscriptions</li>
+    </nav>
+  </footer>
+    
 </body>
 </html>
