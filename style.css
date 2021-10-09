@@ -34,7 +34,10 @@ main,h5 {
   color: #dd3232;
 }
 
-#extra-one {
+.extra-articles {
+  text-align: center;
+  margin: 5em;
+}
   
 
 
