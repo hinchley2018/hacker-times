@@ -29,10 +29,31 @@ nav li a {
   padding-left: 0.3em;
 }
 
-.navBar a:hover {
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.navbar a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: black;
   padding: 8px;
+}
+
+
+.content {
+  padding: auto;
+}
+
+.stickyNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.stickyNav + .content {
+  padding-top: 60px;
 }
 
 header {
@@ -78,9 +99,13 @@ main h5 {
 }
 
 .tabs-spacesarticle {
-  display: inline-block;
   width: 49%;
   float: left;
+}
+
+.caffeine-article {
+  width: 49%;
+  float: right;
 }
 
 .tabs-spacesarticle p {
@@ -105,3 +130,46 @@ footer {
   float: right;
   letter-spacing: 0.15em;
 }
+
+
+body {
+    background-color: #ddd;
+}
+
+	
+
+		#extra-one {
+			color: #777;
+			font-family: Source San Pro;
+
+		}
+
+		#extra-two {
+			color: #777;
+			font-family: Source San Pro;
+
+		}
+
+		#extra-three {
+			color: #777;
+			font-family: Source San Pro;
+
+		}
+
+		#head1 {
+			text-align: left;
+			font-family: Roboto Slab;
+
+
+		}
+		
+		#head2 {
+			text-align: left;
+			font-family: Roboto Slab;
+
+
+		}
+
+		#head3 {
+			text-align: left;
+			font-family: Roboto Slab;
